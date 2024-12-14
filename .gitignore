@@ -1,0 +1,28 @@
+# Ignorar node_modules
+node_modules/
+
+# Ignorar carpetas de distribución (como build, dist)
+dist/
+build/
+
+# Ignorar archivos de configuración de editor (como .vscode)
+.vscode/
+
+# Ignorar archivos de logs
+*.log
+
+# Ignorar archivos específicos de sistema operativo
+.DS_Store         # macOS
+Thumbs.db         # Windows
+
+# Ignorar configuraciones de IDE (como JetBrains)
+.idea/
+
+# Ignorar carpetas de dependencias de paquetes de frontend (si existiera)
+/to-do/node_modules/
+/server-to-do/node_modules/
+/to-do/dist
+/server-to-do/dist
+
+# Ignorar dependencias del backend si estuvieran fuera de /server-to-do
+/server-to-do/dist/
